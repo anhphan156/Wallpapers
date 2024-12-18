@@ -14,8 +14,8 @@
       version = "1.0.0";
       src = ./.;
       installPhase = ''
-        mkdir -p $out/share/wallpapers
-        cp -r src/* $out/share/wallpapers
+        mkdir -p $out
+        cp -r src/* $out
       '';
     };
   in {
