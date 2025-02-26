@@ -1,9 +1,7 @@
 {
   description = "Wallpapers flake";
 
-  inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-  };
+  inputs = {};
 
   outputs = _: {
     overlays.default = _: prev: {
